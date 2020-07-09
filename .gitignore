@@ -57,3 +57,5 @@ tests/vla_test
 tests/hello
 tests/tests2/fred.txt
 libtcc.dylib
+
+_build

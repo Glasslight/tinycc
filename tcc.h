@@ -23,7 +23,6 @@
 
 #define _GNU_SOURCE
 #define _DARWIN_C_SOURCE
-#include "config.h"
 
 #include <stdarg.h>
 #include <stdlib.h>
@@ -1059,7 +1058,7 @@ struct filespec {
 #define TOK_TWOSHARPS 0xa3 /* ## preprocessing token */
 #define TOK_PLCHLDR 0xa4 /* placeholder token as defined in C99 */
 #define TOK_NOSUBST 0xa5 /* means following token has already been pp'd */
-#define TOK_PPJOIN  0xa6 /* A '##' in the right position to mean pasting */ 
+#define TOK_PPJOIN  0xa6 /* A '##' in the right position to mean pasting */
 
 /* assignment operators */
 #define TOK_A_ADD   0xb0
