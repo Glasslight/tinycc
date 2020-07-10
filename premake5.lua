@@ -7,7 +7,7 @@ workspace "tinycc"
     platforms { "Win64" }
     architecture "x64"
 
-    startproject "tinyc"
+    startproject "libtcc"
 
     location(dst)
 
