@@ -1,7 +1,7 @@
 dst = "_build"
 gen = "gen"
 
-workspace "tinyc"
+workspace "tinycc"
 
     configurations { "Debug", "Release" }
     platforms { "Win64" }
